@@ -221,14 +221,14 @@
 
             <!--แถวปุ่มกด-->
             <Button
-                android:id="@+id/btnAC"
+                android:id="@+id/btnSign"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="AC"
                 android:background="#123456"
-                android:textColor="@color/white"
-                android:layout_margin="4dp"/>
+                android:text="+/-"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btn0"
@@ -249,7 +249,7 @@
                 android:layout_margin="4dp"/>
 
             <Button
-                android:id="@+id/btnEqua"
+                android:id="@+id/btnEquals"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
